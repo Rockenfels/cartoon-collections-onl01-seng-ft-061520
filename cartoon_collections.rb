@@ -1,5 +1,8 @@
+require pry
+
 def roll_call_dwarves(roll)
   roll.each { |dwarf| puts dwarf }
+  binding.pry
 end
 
 def summon_captain_planet# code an argument here
