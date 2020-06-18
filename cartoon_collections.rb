@@ -9,8 +9,9 @@ def roll_call_dwarves(roll)
 end
 
 def summon_captain_planet(calls)
-  cap_calls = calls.map do |call|
-    call
+  cap_calls = []
+  calls.map do |call|
+    cap_calls << call.capitalize
   end
 end
 
