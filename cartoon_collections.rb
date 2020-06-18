@@ -18,6 +18,7 @@ end
 
 def find_the_cheese(foods)
   cheese = foods.find("cheddar" || "gouda" || "camembert")
+  cheese
   binding.pry
 end
 
