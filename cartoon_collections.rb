@@ -23,6 +23,7 @@ def find_the_cheese(foods)
     if foods.include?(cheese)
       return foods.collect(cheese)
     end
+  end
 end
 
 
