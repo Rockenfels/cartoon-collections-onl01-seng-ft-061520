@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  cheese = foods.find("cheddar" || "gouda" || "camembert")
+  cheese = foods.find(foods)
   cheese
   binding.pry
 end
