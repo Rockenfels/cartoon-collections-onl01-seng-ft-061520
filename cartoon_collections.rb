@@ -1,4 +1,4 @@
-require pry
+require "pry"
 
 def roll_call_dwarves(roll)
   roll.each { |dwarf| puts dwarf }
