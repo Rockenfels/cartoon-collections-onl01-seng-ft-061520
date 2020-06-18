@@ -19,9 +19,9 @@ end
 def find_the_cheese(foods)
   cheeses = ["cheddar", "gouda", "camembert"]
   i = 0
-  while i < cheeses.length do |cheese|
-    if foods.include?(cheese)
-      return foods.collect(cheese)
+  while i < cheeses.length do
+    if foods.include?(cheeses[i])
+      return foods.collect(cheese[i])
     end
   end
 end
