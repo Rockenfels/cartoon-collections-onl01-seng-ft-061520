@@ -1,7 +1,11 @@
 require "pry"
 
 def roll_call_dwarves(roll)
-  roll.each { |dwarf| puts dwarf }
+  i = 0
+  roll.each do |dwarf|
+    puts "#{i}. #{dwarf}"
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
