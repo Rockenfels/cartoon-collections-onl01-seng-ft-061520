@@ -17,8 +17,10 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  foods.select do 
+  cheese = foods.select do |food|
+    food === "cheddar" || food === "gouda" || food === "camembert"
   end
+  cheese[0]
 end
 
 
