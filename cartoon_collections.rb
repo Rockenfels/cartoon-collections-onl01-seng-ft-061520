@@ -1,7 +1,7 @@
 require "pry"
 
 def roll_call_dwarves(roll)
-  i = 0
+  i = 1
   roll.each do |dwarf|
     puts "#{i}. #{dwarf}"
     i += 1
