@@ -17,12 +17,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(foods)
-  cheeses = ["cheddar", "gouda", "camembert"]
-  i = 0
-  while i < cheeses.length do
-    if foods.include?(cheeses[i])
-      ans = foods.collect(cheeses[i])
-    end
+  foods.select do 
   end
 end
 
